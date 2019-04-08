@@ -84,38 +84,23 @@ void matrix_scan_user(void){
           rgblight_mode_noeeprom(rgblight_config.mode);
 
         }
-        /* if(rgbmode == RGBLIGHT_MODE_STATIC_LIGHT) */
-
-
-    /*   // TODO load current rgb light eeprom stuff if coming from adjust layer? */
       break;
       case _SYMB:
         rgblight_enable_noeeprom();
         rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
         rgblight_sethsv_noeeprom_red();
-        /* rgblight_enable(); */
-        /* rgblight_setrgb(255,0,0); */
       break;
       case _NAV:
         rgblight_enable_noeeprom();
         rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
         rgblight_sethsv_noeeprom_green();
-        /* rgblight_enable(); */
-        /* rgblight_setrgb(0,255,0); */
       break;
       case _ADJUST:
         rgblight_enable_noeeprom();
         rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
         rgblight_sethsv_noeeprom_blue();
-        /* rgblight_enable(); */
-        /* rgblight_setrgb(0,0,255); */
       break;
     }
-    /* if(current_layer == _QWERTY){ */
-    /*   rgblight_disable(); */
-    /* }else{ */
-    /*   rgblight_enable(); */
-    /* } */
   }
 }
 
