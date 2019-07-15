@@ -32,5 +32,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_TERM 200
 #define TAP_CODE_DELAY 10
-
 #define IGNORE_MOD_TAP_INTERRUPT
